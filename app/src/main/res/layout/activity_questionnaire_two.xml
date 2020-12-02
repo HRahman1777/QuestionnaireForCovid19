@@ -1,0 +1,197 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1: Are you meet someone who is infected?"
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/sixradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioElevenButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwelveButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2: Are you meet with unknown person?"
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/sevenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioThrteenButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioForteenButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3: Are you suffering for fever?  "
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/EightradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioFifteenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioSixteenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 4: Do you have a dry cough?  "
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/NineradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioSeventeenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioEighteenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 5: Do you feel the shortness of breath?"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/TenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioNinteenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwentyButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/buttonTwoIid"
+            android:layout_width="match_parent"
+            android:textSize="26dp"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="NEXT" />
+    </LinearLayout>
+</ScrollView>
+

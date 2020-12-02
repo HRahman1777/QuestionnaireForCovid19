@@ -1,0 +1,198 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1: Do you have diabetes?"
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/FirstradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioOneButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwoButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2: Do you have heart disease? "
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/secondradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioThreeButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFourButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3: Do you have any lung complications? "
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/threeradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioFiveButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioSixButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 4: Do you have high blood pressure? "
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/FourthradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioSevenButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioEightButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 5: Can you taste or smell?"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/FiveradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioNineButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTenButtonid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/buttonOneIid"
+            android:layout_width="match_parent"
+            android:textSize="26dp"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="NEXT" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "87974613287",
+    "firebase_url": "https://questionnaire-for-covid19.firebaseio.com",
+    "project_id": "questionnaire-for-covid19",
+    "storage_bucket": "questionnaire-for-covid19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87974613287:android:dca34fa2bfd654f71f9902",
+        "android_client_info": {
+          "package_name": "com.example.questionnaireforcovid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87974613287-97h67ii58pdquirbet9gkq7j17rf5s3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdSXmTs_9Qlgwrz_6fhBGdxZ34IxJ4NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87974613287-97h67ii58pdquirbet9gkq7j17rf5s3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

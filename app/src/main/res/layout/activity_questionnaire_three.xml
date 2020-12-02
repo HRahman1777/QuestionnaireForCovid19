@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1: Do you have a headache?"
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/TwelveradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioTwentyThreeButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwentyFourButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 2: Do you suffer from diarrhea?"
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/ThirteenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioTwentyFiveButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwentySixButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 3: Does your phlegm bleed?  "
+            android:textSize="26dp"
+            android:background="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/FourteenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioTwentySevenButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioTwntyEightButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 4: Do you feel discoloration of fingers or toes?  "
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/FifteenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioTwtntyNineButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioThirtyButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 5: Are you depressed? "
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/SixteenradioGroupID">
+
+            <RadioButton
+                android:id="@+id/radioThirtyOneButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioThirtyTwoButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#0099FF"
+            android:text="Question 6:  Do you feel muscle aches?"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RadioButton
+                android:id="@+id/radioThirtyThreeButtonID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#E91E63"
+                android:textStyle="bold"
+                android:text="Yes" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:background="#4CAF50"
+                android:textStyle="bold"
+                android:text="No" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/buttonThreeIid"
+            android:layout_width="match_parent"
+            android:textSize="26dp"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</ScrollView>

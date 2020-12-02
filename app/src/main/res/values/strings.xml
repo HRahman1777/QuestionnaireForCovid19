@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Questionnaire For Covid19</string>
+
+    <string name="highRisk">
+=> Consult with a doctor.\n
+=> Maybe you need COVID-19 test.\n
+=> You need to take care of your mental health.\n
+=> Keep your morale strong at this time.
+\n## And also try to maintain those advice given below.  ##\n
+    </string>
+
+    <string name="risk">
+=>You may consult with a doctor.\n
+=> Keep an eye on the level of oxygen in the body.
+(Heart rate and oxygen level in the body can be measured by touching the head of the finger.) The pulse oximeter usually assumes a normal oxygen level of 95 to 100 percent.\n
+=> If you feel any problem on oxygen level in your body, consult with a doctor immediately.\n
+=> Keep your morale strong at this time.
+\n## And also try to maintain those advice given below.  ##\n
+    </string>
+
+    <string name="advice">
+=> Always use mask and hand sanitizer.(specially when outside)\n
+=> Maintain social distance.\n
+=> Gargle and steam with hot water.\n
+=> Eat nutritious food.\n
+=> Try to follow the hygiene rules.\n
+=> Vitamin C, Vitamin D there are no side effects of the national medicine. So you can eat it without a prescription.\n
+=> Eat seasonal fruits, eat enough vegetables to boost your immunity.\n
+=> Exercise regularly.
+    </string>
+
+
+</resources>
